@@ -164,6 +164,10 @@
   justify-content: space-between;
   border: 10px;
 }
+.bottom-left {
+  border: #747578;
+  background-color: var(--primary-color);
+}
 
 .contact h3 {
   text-align: center;
