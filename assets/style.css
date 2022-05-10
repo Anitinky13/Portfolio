@@ -235,3 +235,108 @@
   box-shadow: 10px 10px 5px #aaaaaa;
   text-decoration: none;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    display: grid;
+    flex-direction: row;
+  }
+  .about-me {
+    display: block;
+    flex-direction: row;
+  }
+  .gallery {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+  }
+  .gallery img {
+    width: 700px;
+  }
+  .gallery-2 {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+  }
+  .gallery-2 img {
+    width: 700px;
+  }
+  .gallery-3 {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+  }
+  .gallery-3 img {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    background: var(--secondary-color);
+  }
+  .about-me {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+  }
+  .gallery {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: #9d6381;
+  }
+  .gallery img {
+    width: 300px;
+  }
+  .gallery-2 {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: #9d6381;
+  }
+  .gallery-2 img {
+    width: 300px;
+  }
+  .gallery-3 {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: #9d6381;
+  }
+  .gallery-3 img {
+    width: 300px;
+  }
+  .resume {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: #9d6381;
+  }
+  .resume img {
+  }
+}
