@@ -1,15 +1,15 @@
 * {
-  background-color: #fffaff;
+  background-color: antiquewhite;
   background-position: center;
   margin: 2px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 :root {
-  --primary-color: #d4f5f5;
-  --secondary-color: #8c9a9e;
-  --tertiary-color: #747578;
+  --primary-color: #e8d9ce;
+  --secondary-color: #b7b7a4;
+  --tertiary-color: #ddbea9;
 }
 /*NAVIGATION STYLE*/
 .container {
@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background: var(--secondary-color);
+  background: var(--primary-color);
 }
 .container h1 a {
   font-weight: bolder;
@@ -59,45 +59,45 @@
 
 /* change link color to black on hover*/
 .container li a:hover {
-  background-color: #9d6381;
+  background-color: #cb997e;
 }
 .container h1 a:hover {
-  background-color: #9d6381;
+  background-color: #cb997e;
 }
 .contact a:hover {
-  background-color: #9d6381;
+  background-color: #cb997e;
 }
 
 /*ABOUT ME BIO STYLES*/
-
+.section-title-primary-border {
+  font-size: 65px;
+  color: var(--secondary-color);
+  margin-bottom: -27px;
+  padding: 0 69px 0px 207px;
+  border-bottom: 3px solid var(--secondary-color);
+  border-color: var(--primary-color);
+  display: inline-block;
+}
 .about-me {
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  border: 10px;
-}
-.about-me h2 {
-  display: flex;
+  padding-top: 20px;
   text-align: center;
-  font-size: 20pt;
-  font-style: italic;
-  color: #1e1b18;
-  background-color: var(--secondary-color);
-  margin: 30px;
-  padding: 40px;
-  border-style: solid;
-  border-radius: 25px;
-  flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  justify-content: center;
+  border-radius: 750px;
+  line-height: 1.3;
+  border-bottom: var(--tertiary-color);
+  overflow: auto;
+  justify-content: space-between;
+  justify-content: space-around;
 }
+
 .bio p {
   border-style: solid;
   border-width: 1px;
   border-radius: 25px;
   padding: 10px;
   flex: 0 0 300;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px #6b705c;
   line-height: 1.5;
   color: #1e1b18;
   font-size: 12pt;
@@ -106,6 +106,7 @@
 }
 .bio h3 {
   background-color: var(--tertiary-color);
+  text-align: center;
 }
 
 .bio h4 {
@@ -115,28 +116,25 @@
 /*PORTFOLIO STYLE*/
 
 .work h3 {
-  text-align: center;
-  font-size: 20pt;
-  font-style: italic;
-  color: #1e1b18;
-  background-color: var(--secondary-color);
-  margin: 30px;
-  padding: 40px;
-  border-style: solid;
-  border-radius: 25px;
-  flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  font-size: 65px;
+  color: var(--secondary-color);
+  margin-bottom: -27px;
+  padding: 0 69px 0px 207px;
+  border-bottom: 3px solid var(--secondary-color);
+  border-color: var(--primary-color);
+  display: inline-block;
 }
+
 .gallery {
   margin: 30px;
   padding: 40px;
   border-style: solid;
   border-radius: 25px;
   flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px #6b705c;
 }
 .gallery:hover {
-  background-color: #9d6381;
+  background-color: #cb997e;
 }
 .gallery-2 {
   margin: 30px;
@@ -144,7 +142,7 @@
   border-style: solid;
   border-radius: 25px;
   flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px #6b705c;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -157,7 +155,7 @@
   border-style: solid;
   border-radius: 25px;
   flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px #6b705c;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -170,31 +168,23 @@
 }
 
 .contact h3 {
-  text-align: center;
-  font-size: 20pt;
-  font-style: italic;
-  color: #1e1b18;
-  background-color: var(--secondary-color);
-  margin: 30px;
-  padding: 40px;
-  border-style: solid;
-  border-radius: 25px;
-  flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  font-size: 65px;
+  color: var(--secondary-color);
+  margin-bottom: -27px;
+  padding: 0 69px 0px 207px;
+  border-bottom: 3px solid var(--secondary-color);
+  border-color: var(--primary-color);
+  display: inline-block;
 }
 
 .resume h3 {
-  text-align: center;
-  font-size: 20pt;
-  font-style: italic;
-  color: #1e1b18;
-  background-color: var(--secondary-color);
-  margin: 30px;
-  padding: 40px;
-  border-style: solid;
-  border-radius: 25px;
-  flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  font-size: 65px;
+  color: var(--secondary-color);
+  margin-bottom: -27px;
+  padding: 0 69px 0px 207px;
+  border-bottom: 3px solid var(--secondary-color);
+  border-color: var(--primary-color);
+  display: inline-block;
 }
 .resume {
   margin: 30px;
@@ -202,23 +192,19 @@
   border-style: solid;
   border-radius: 25px;
   flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px #6b705c;
 }
 .resume:hover {
-  background-color: #9d6381;
+  background-color: #cb997e;
 }
 .footer h3 {
-  text-align: center;
-  font-size: 20pt;
-  font-style: italic;
-  color: #1e1b18;
-  background-color: var(--secondary-color);
-  margin: 30px;
-  padding: 40px;
-  border-style: solid;
-  border-radius: 25px;
-  flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  font-size: 65px;
+  color: var(--secondary-color);
+  margin-bottom: -27px;
+  padding: 0 69px 0px 207px;
+  border-bottom: 3px solid var(--secondary-color);
+  border-color: var(--primary-color);
+  display: inline-block;
 }
 
 .contact ul {
@@ -236,7 +222,7 @@
   font-style: oblique;
   border-radius: 5px;
   flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px #6b705c;
   text-decoration: none;
 }
 @media screen and (max-width: 768px) {
@@ -303,7 +289,7 @@
     justify-content: center;
     margin: 10px;
     padding: 15px;
-    background-color: #9d6381;
+    background-color: antiquewhite;
   }
   .gallery img {
     width: 300px;
@@ -315,7 +301,7 @@
     justify-content: center;
     margin: 10px;
     padding: 15px;
-    background-color: #9d6381;
+    background-color: antiquewhite;
   }
   .gallery-2 img {
     width: 300px;
@@ -327,7 +313,7 @@
     justify-content: center;
     margin: 10px;
     padding: 15px;
-    background-color: #9d6381;
+    background-color: antiquewhite;
   }
   .gallery-3 img {
     width: 300px;
@@ -339,7 +325,7 @@
     justify-content: center;
     margin: 10px;
     padding: 15px;
-    background-color: #9d6381;
+    background-color: antiquewhite;
   }
   .resume img {
   }
